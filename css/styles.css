@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+  color: #1c1c1c;
+  background-color: #c9ddff;
+}
+header {
+  background-color: #21365b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.italic {
+  font-style: italic;
+}
+main .main {
+  border: 5px dotted white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 750px;
+}
+.main img {
+  float: left;
+  margin-right: 10px;
+  height: 200px;
+}
+.recipe-details {
+  background-color: white;
+  padding: 20px;
+  font-size: 0.8em;
+}
+.container {
+  padding-left: 20px;
+}
+.container h2 {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+}
+
+/* Custom CSS */
+
+.banner {
+  background: url(../img/bamboo-whisk-bowls-color-461428.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.dark-overlay {
+  /* position:absolute; */
+  /* top: 0;
+  left: 0; */
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.note {
+  display: none;
+}
+#recipe-description {
+  border-bottom: palevioletred solid 5px;
+}
+a {
+  color: black;
+}
+a:hover {
+  opacity: 0.8;
+}
